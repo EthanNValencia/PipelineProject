@@ -1,12 +1,16 @@
-
-
 import org.testng.annotations.Test;
+
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 
-
+/***
+ * Unit tests for the Dog class. 
+ * @author Ethan J. Nephew
+ *
+ */
 public class DogTests {
-
+	
 	@Test
 	@DisplayName("Tests a Dog object is a member of the Dog class")
 	public void test_DogClass_Equals() {
@@ -25,17 +29,25 @@ public class DogTests {
 	}
 	
 	@Test
-	@DisplayName("Tests Dog three parameter constructor")
+	@DisplayName("Tests Dog three parameter constructor for not null")
 	public void test_DogThreeParamConstructor_NotNull() {
 		Dog dog = new Dog("Woofy","Hound", 12);
 		Assertions.assertNotNull(dog.getAge());
 		Assertions.assertNotNull(dog.getName());
 		Assertions.assertNotNull(dog.getBreed());
-		
 	}
 	
 	@Test
-	@DisplayName("Tests Dog three parameter constructor")
+	@DisplayName("Tests Dog three parameter constructor for equality")
+	public void test_DogThreeParamConstructor_Equals() {
+		Dog dog = new Dog("Woofy","Hound", 12);
+		Assertions.assertEquals(12, dog.getAge());
+		Assertions.assertEquals("Woofy", dog.getName());
+		Assertions.assertEquals("Hound", dog.getBreed());
+	}
+	
+	@Test
+	@DisplayName("Tests Dog three parameter constructor for not equals")
 	public void test_TwoDog_NotEqual() {
 		Dog dogOne = new Dog("Woofy","Hound", 12);
 		Dog dogTwo = new Dog("Woofy","Hound", 12);
@@ -43,7 +55,7 @@ public class DogTests {
 	}
 	
 	@Test
-	@DisplayName("Tests Dog two parameter constructor")
+	@DisplayName("Tests Dog two parameter constructor for not null")
 	public void test_DogTwoParamConstructor_NotNull() {
 		Dog dog = new Dog("Woofy","Hound");
 		Assertions.assertNotNull(dog.getName());
@@ -93,6 +105,13 @@ public class DogTests {
 	public void test_DogToStringEmpty() {
 		Dog dog = new Dog();
 		Assertions.assertEquals("Dog [name=null, breed=null, age=0]", dog.toString());
+	}
+	
+	@Test
+	@DisplayName("Tests Dog bark")
+	public void test_DogBark() {
+		Dog dog = new Dog();
+		Assertions.assertEquals("Woof!", dog.bark());
 	}
 
 }
