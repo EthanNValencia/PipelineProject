@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Built-By: Ethan
-Build-Jdk: 16.0.2
-Class-Path: lib/testng-7.1.0.jar lib/jcommander-1.72.jar lib/guice-4.1.0
- -no_aop.jar lib/javax.inject-1.jar lib/aopalliance-1.0.jar lib/guava-19
- .0.jar lib/snakeyaml-1.21.jar
-Main-Class: Main
-Created-By: Maven Integration for Eclipse
-
