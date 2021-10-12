@@ -2,60 +2,60 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-12T11:00:26 EDT" name="DogTestsXML" finished-at="2021-10-12T11:00:26 EDT" duration-ms="129">
+  <suite started-at="2021-10-12T11:26:16 EDT" name="DogTestsXML" finished-at="2021-10-12T11:26:16 EDT" duration-ms="115">
     <groups>
     </groups>
-    <test started-at="2021-10-12T11:00:26 EDT" name="DogTests" finished-at="2021-10-12T11:00:26 EDT" duration-ms="129">
+    <test started-at="2021-10-12T11:26:16 EDT" name="DogTests" finished-at="2021-10-12T11:26:16 EDT" duration-ms="115">
       <class name="DogTests">
-        <test-method signature="test_DogBark()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogBark" finished-at="2021-10-12T11:00:26 EDT" duration-ms="16" status="PASS">
+        <test-method signature="test_DogBark()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogBark" finished-at="2021-10-12T11:26:16 EDT" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogBark -->
-        <test-method signature="test_DogClass_Equals()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogClass_Equals" finished-at="2021-10-12T11:00:26 EDT" duration-ms="5" status="PASS">
+        <test-method signature="test_DogClass_Equals()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogClass_Equals" finished-at="2021-10-12T11:26:16 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogClass_Equals -->
-        <test-method signature="test_DogNoParamConstructor_NotNull()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogNoParamConstructor_NotNull" finished-at="2021-10-12T11:00:26 EDT" duration-ms="5" status="PASS">
+        <test-method signature="test_DogNoParamConstructor_NotNull()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogNoParamConstructor_NotNull" finished-at="2021-10-12T11:26:16 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogNoParamConstructor_NotNull -->
-        <test-method signature="test_DogSetGetAge_Equals()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogSetGetAge_Equals" finished-at="2021-10-12T11:00:26 EDT" duration-ms="1" status="PASS">
+        <test-method signature="test_DogSetGetAge_Equals()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogSetGetAge_Equals" finished-at="2021-10-12T11:26:16 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogSetGetAge_Equals -->
-        <test-method signature="test_DogSetGetBreed_Equals()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogSetGetBreed_Equals" finished-at="2021-10-12T11:00:26 EDT" duration-ms="2" status="PASS">
+        <test-method signature="test_DogSetGetBreed_Equals()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogSetGetBreed_Equals" finished-at="2021-10-12T11:26:16 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogSetGetBreed_Equals -->
-        <test-method signature="test_DogSetGetName_Equals()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogSetGetName_Equals" finished-at="2021-10-12T11:00:26 EDT" duration-ms="1" status="PASS">
+        <test-method signature="test_DogSetGetName_Equals()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogSetGetName_Equals" finished-at="2021-10-12T11:26:16 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogSetGetName_Equals -->
-        <test-method signature="test_DogThreeParamConstructor_Equals()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogThreeParamConstructor_Equals" finished-at="2021-10-12T11:00:26 EDT" duration-ms="3" status="PASS">
+        <test-method signature="test_DogThreeParamConstructor_Equals()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogThreeParamConstructor_Equals" finished-at="2021-10-12T11:26:16 EDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogThreeParamConstructor_Equals -->
-        <test-method signature="test_DogThreeParamConstructor_NotNull()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogThreeParamConstructor_NotNull" finished-at="2021-10-12T11:00:26 EDT" duration-ms="3" status="PASS">
+        <test-method signature="test_DogThreeParamConstructor_NotNull()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogThreeParamConstructor_NotNull" finished-at="2021-10-12T11:26:16 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogThreeParamConstructor_NotNull -->
-        <test-method signature="test_DogToString()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogToString" finished-at="2021-10-12T11:00:26 EDT" duration-ms="1" status="PASS">
+        <test-method signature="test_DogToString()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogToString" finished-at="2021-10-12T11:26:16 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogToString -->
-        <test-method signature="test_DogToStringEmpty()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogToStringEmpty" finished-at="2021-10-12T11:00:26 EDT" duration-ms="1" status="PASS">
+        <test-method signature="test_DogToStringEmpty()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogToStringEmpty" finished-at="2021-10-12T11:26:16 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogToStringEmpty -->
-        <test-method signature="test_DogTwoParamConstructor_NotNull()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_DogTwoParamConstructor_NotNull" finished-at="2021-10-12T11:00:26 EDT" duration-ms="1" status="PASS">
+        <test-method signature="test_DogTwoParamConstructor_NotNull()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_DogTwoParamConstructor_NotNull" finished-at="2021-10-12T11:26:16 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DogTwoParamConstructor_NotNull -->
-        <test-method signature="test_Dog_NoException()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_Dog_NoException" finished-at="2021-10-12T11:00:26 EDT" duration-ms="2" status="PASS">
+        <test-method signature="test_Dog_NoException()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_Dog_NoException" finished-at="2021-10-12T11:26:16 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Dog_NoException -->
-        <test-method signature="test_TwoDog_NotEqual()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:00:26 EDT" name="test_TwoDog_NotEqual" finished-at="2021-10-12T11:00:26 EDT" duration-ms="2" status="PASS">
+        <test-method signature="test_TwoDog_NotEqual()[pri:0, instance:DogTests@1e178745]" started-at="2021-10-12T11:26:16 EDT" name="test_TwoDog_NotEqual" finished-at="2021-10-12T11:26:16 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_TwoDog_NotEqual -->
