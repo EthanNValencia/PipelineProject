@@ -17,5 +17,41 @@ public class Main {
 		System.out.println(dog.getName() + " is a " + dog.getAge() + " years old.");
 		System.out.println(dog.bark() + " "  + dog.bark() + " "  + dog.bark());
     }
+
+    
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
