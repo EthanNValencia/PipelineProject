@@ -1,10 +1,6 @@
 import org.testng.annotations.Test;
 import org.testng.Assert;
 
-// import org.junit.jupiter.api.Assertions;
-// import org.junit.jupiter.api.DisplayName;
-
-
 /***
  * Unit tests for the Dog class. 
  * @author Ethan J. Nephew
